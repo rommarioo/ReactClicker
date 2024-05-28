@@ -1,0 +1,9 @@
+.coin {
+  &__image {
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
