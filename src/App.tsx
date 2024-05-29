@@ -30,6 +30,11 @@ function App() {
     setScore(score - 100);
     setChange(!change);
     setShowConfetti(true);
+    const timeout = setTimeout(() => {
+      setShowConfetti(false);
+    }, 5000);
+
+    return () => clearTimeout(timeout);
   };
   return (
     <main className="main">
