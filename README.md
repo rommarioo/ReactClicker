@@ -1,4 +1,11 @@
 # React + TypeScript + Vite Clicker
-![image](https://github.com/rommarioo/ReactClicker/assets/94062597/8c445834-4ab9-40f0-bbca-7cabc630e478)
+<p align="center">
+  <img width="500" height="550" src="https://github.com/rommarioo/ReactClicker/assets/94062597/fadcc572-d2d9-4b86-bec7-dbfffff36beb">
+</p>
+<p align="center">
+  <img width="500" height="550" src="https://github.com/rommarioo/ReactClicker/assets/94062597/dc6d0732-9d60-4bb4-add2-7812e07384d9">
+</p>
 
-![image](https://github.com/rommarioo/ReactClicker/assets/94062597/988d2cf7-769f-47f4-bbc8-93d70ec4be7c)
+
+
+
