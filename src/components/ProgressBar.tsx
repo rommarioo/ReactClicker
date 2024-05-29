@@ -1,5 +1,3 @@
-import React from "react";
-
 interface PropsProgressBar {
   bgColor: string;
   width: number;
