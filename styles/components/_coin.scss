@@ -1,0 +1,10 @@
+.coin {
+  margin-top: 30px;
+  &__image {
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

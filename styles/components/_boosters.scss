@@ -1,0 +1,35 @@
+.boosters {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  &__card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+
+    button {
+      outline: none;
+      background-color: #d9e7ff;
+      border-radius: 5px;
+      padding: 10px;
+      width: 150px;
+      border: 2px solid black;
+      cursor: pointer;
+      font-size: 10px;
+      word-spacing: small;
+      line-height: 1.3;
+      &:hover {
+        scale: 1.05;
+        transition: 0.5s;
+      }
+    }
+  }
+}
