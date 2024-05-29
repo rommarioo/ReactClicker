@@ -6,7 +6,7 @@ import Confettis from "./components/Confettis";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [score, setScore] = useState(100);
+  const [score, setScore] = useState(50);
   const [scale, setScale] = useState(1);
   const [change, setChange] = useState(false);
   const [level, setLevel] = useState(1);
