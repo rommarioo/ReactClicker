@@ -3,12 +3,22 @@
   height: 20px;
   background-color: rgb(212, 212, 212);
   border-radius: 5px;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-block: 10px;
+
   &__line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     border-radius: 5px;
     white-space: nowrap;
     transition: width 0.5s ease;
+    font-size: 10px;
+    letter-spacing: normal;
+    span {
+      width: 100%;
+      margin-left: 5px;
+      text-align: center;
+    }
   }
 }

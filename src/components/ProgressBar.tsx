@@ -16,7 +16,7 @@ const ProgressBar = ({ bgColor, width, scale }: PropsProgressBar) => {
           backgroundColor: `${bgColor}`,
         }}
       >
-        {scale} per tap
+        <span>{scale} per tap</span>
       </div>
     </div>
   );

@@ -1,9 +1,13 @@
-const Coin = ({ onClick }: { onClick: () => void }) => {
+interface PropsCoin {
+  onClick: () => void;
+  change: boolean;
+}
+const Coin = ({ onClick, change }: PropsCoin) => {
   return (
     <div className="coin">
       <img
         onClick={onClick}
-        src="./images/gold-coin-icon.png"
+        src={change ? "./images/star.png" : "./images/gold-coin-icon.png"}
         alt="coin"
         className="coin__image"
         width={250}
